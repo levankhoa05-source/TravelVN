@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="12dp"
+    android:background="@drawable/bg_bottom_border">
+
+    <TextView
+        android:id="@+id/tvCompName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:text="Phương Trang"
+        android:textColor="#0F172A"
+        android:textSize="13sp"
+        android:paddingStart="8dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvCompRevenue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="15.000.000"
+        android:textColor="#2563EB"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/tvCompTickets"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:text="120"
+        android:textColor="#64748B"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/tvCompRating"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:text="4.5 ⭐"
+        android:textColor="#FF9800"
+        android:textSize="13sp"/>
+
+</LinearLayout>

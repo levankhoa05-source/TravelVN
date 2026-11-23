@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvBookingStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#E1F5FE"
+                android:textColor="@color/vivu_blue"
+                android:text="ĐÃ THANH TOÁN"
+                android:textSize="10sp"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvBookingDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:text="04/04/2026 10:41:20"
+                android:textSize="12sp"
+                android:textColor="#9E9E9E"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EEEEEE"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/baseline_directions_bus_24"
+                android:padding="8dp"
+                android:background="#F5F5F5"
+                app:tint="@color/vivu_blue"/> <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp">
+
+            <TextView
+                android:id="@+id/tvBookingTrip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nha Trang → Hải Phòng"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/tvBookingCustomer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Khách hàng: Nguyễn Văn A"
+                android:textSize="13sp"
+                android:textColor="#757575"/>
+
+            <TextView
+                android:id="@+id/tvBookingSeat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số ghế: A2"
+                android:textSize="13sp"
+                android:textColor="#757575"/>
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvBookingPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="216.918 đ"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/vivu_blue" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

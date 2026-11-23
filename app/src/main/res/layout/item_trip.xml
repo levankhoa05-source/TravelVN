@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="2dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="@color/vivu_border">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Left: Icon -->
+            <ImageView
+                android:id="@+id/ivTripTypeIcon"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:background="#EFF6FF"
+                android:padding="10dp"
+                android:src="@android:drawable/ic_menu_send"
+                app:tint="#3B82F6" />
+
+            <!-- Center: Times and Route -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/ivTripTypeIcon"
+                android:layout_marginStart="16dp"
+                android:orientation="vertical">
+                
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                    <TextView
+                        android:id="@+id/tvTripTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="00:30"
+                        android:textColor="@color/vivu_black"
+                        android:textStyle="bold"
+                        android:textSize="16sp" />
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="1dp"
+                        android:background="#CBD5E1"
+                        android:layout_marginHorizontal="8dp"/>
+                    <TextView
+                        android:id="@+id/tvTripDuration"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="—"
+                        android:textColor="#94A3B8"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvTripPath"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nha Trang → Cần Thơ"
+                    android:textColor="@color/vivu_black"
+                    android:textSize="14sp"
+                    android:layout_marginTop="2dp" />
+
+                <TextView
+                    android:id="@+id/tvTripType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Máy bay • 2026-04-05"
+                    android:textColor="#94A3B8"
+                    android:textSize="11sp"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+
+            <!-- Right: Price -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:gravity="end"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Giá vé từ"
+                    android:textColor="#94A3B8"
+                    android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/tvTripPriceOriginal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:textColor="@color/vivu_muted"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+                <TextView
+                    android:id="@+id/tvTripPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1.975.380 đ"
+                    android:textColor="@color/vivu_blue"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="2dp" />
+
+                <Button
+                    android:id="@+id/btnSelectTrip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="#EFF6FF"
+                    android:text="Chọn chuyến"
+                    android:textColor="@color/vivu_blue"
+                    android:textSize="12sp"
+                    android:textAllCaps="false"
+                    android:paddingHorizontal="16dp"
+                    app:cornerRadius="8dp"
+                    app:strokeColor="@color/vivu_blue_light"
+                    app:strokeWidth="1dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

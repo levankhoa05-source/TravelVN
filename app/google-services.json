@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "923857204001",
+    "project_id": "travelvn-e6027",
+    "storage_bucket": "travelvn-e6027.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923857204001:android:8bad693de40b9c62b94460",
+        "android_client_info": {
+          "package_name": "com.example.travelvn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcfuSUyNOh-XDrf9NgQb9CJbpxgU00eAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

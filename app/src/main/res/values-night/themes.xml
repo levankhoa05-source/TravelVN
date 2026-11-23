@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.TravelVN" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/vivu_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/vivu_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/vivu_blue_light</item>
+        <item name="android:colorBackground">@color/vivu_bg_gray</item>
+        <item name="colorSurface">@color/vivu_surface</item>
+        <item name="colorOnSurface">@color/vivu_black</item>
+        <item name="colorOnSurfaceVariant">@color/vivu_text_gray</item>
+        <item name="colorOutline">@color/vivu_border</item>
+        <item name="android:statusBarColor">@color/vivu_bg_gray</item>
+        <item name="android:navigationBarColor">@color/vivu_bg_gray</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

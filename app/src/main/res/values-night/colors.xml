@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Không đổi @color/white hay @color/black — tránh vỡ chữ/icon trên nền sáng/tối -->
+    <color name="vivu_bg_gray">#0F172A</color>
+    <color name="vivu_black">#F1F5F9</color>
+    <color name="vivu_text_gray">#94A3B8</color>
+    <color name="vivu_border">#334155</color>
+    <color name="vivu_surface">#1E293B</color>
+    <color name="vivu_tab_track">#334155</color>
+    <color name="vivu_primary_container">#1E3A5F</color>
+    <color name="vivu_blue">#60A5FA</color>
+    <color name="vivu_blue_light">#93C5FD</color>
+    <color name="vivu_purple">#C4B5FD</color>
+    <color name="vivu_header_button">#3B82F6</color>
+    <color name="vivu_footer_strip">#020617</color>
+    <color name="vivu_muted">#94A3B8</color>
+    <color name="vivu_hero_accent">#93C5FD</color>
+    <color name="vivu_hero_subtitle">#CBD5E1</color>
+</resources>
